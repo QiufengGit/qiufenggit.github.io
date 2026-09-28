@@ -53,7 +53,8 @@ My research focuses on learned video compression, video frame interpolation and 
 
 <ol>
 {% for item in competitions_page.competitions %}
-<li>{{ item }}</li>
+{% assign rank = item | split: "," | first %}
+<li><strong>{{ rank }}</strong>{{ item | remove_first: rank }}</li>
 {% endfor %}
 </ol>
 

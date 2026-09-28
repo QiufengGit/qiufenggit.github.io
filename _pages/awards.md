@@ -21,6 +21,7 @@ competitions:
 
 <ol>
 {% for item in page.competitions %}
-<li>{{ item }}</li>
+{% assign rank = item | split: "," | first %}
+<li><strong>{{ rank }}</strong>{{ item | remove_first: rank }}</li>
 {% endfor %}
 </ol>
