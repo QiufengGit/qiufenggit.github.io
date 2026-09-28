@@ -5,8 +5,8 @@ permalink: /awards/
 author_profile: true
 competition_source: true
 competitions:
-  - "2nd Place, EventAid Frame Interpolation Challenge @ EBMV Workshop, ECCV 2026."
-  - "1st Place, NTIRE 2026 High FPS Video Frame Interpolation Challenge (Track 2: Extreme 16X), CVPR 2026 Workshop, 2026."
+  - "2nd Place, EventAid Frame Interpolation Challenge @ EBMV Workshop in conjunction with ECCV, 2026."
+  - "1st Place, NTIRE 2026 High FPS Video Frame Interpolation Challenge (Track 2: Extreme 16X), CVPR Workshop, 2026."
   - "1st Place, NTIRE 2026 High FPS Video Frame Interpolation Challenge (Track 1: Classic), CVPR Workshop, 2026."
   - "National First Prize, \"Huawei Cup\" China Postgraduate Mathematical Contest in Modeling (CPMCM), 2025"
   - "Third Prize, in Provincial Division, Python Programming Category (Group A), the 16th Blue Bridge Cup, 2025."
