@@ -13,9 +13,9 @@ competitions:
   - "Finalist, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM), 2024"
   - "Second Prize, in Provincial Division, Python Programming Category (Group A), the 15th Blue Bridge Cup, 2024."
   - "National Second Prize, 2023 (16th) Chinese Collegiate Computing Competition (4C), 2023"
-  - "Third Prize, University-Level, Non-Mathematics Category, the 14th Chinese Mathematics Competitions (CMC), 2023."
-  - "Second Prize, Provincial Division, Network Technology Challenge, China Collegiate Computing Contest (C4), 2023."
-  - "Second Prize, Provincial Division, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2023."
+  - "Third Prize, in the University-Level Division, Non-Mathematics Category, the 14th Chinese Mathematics Competitions (CMC), 2023."
+  - "Second Prize, in Provincial Division, Network Technology Challenge, China Collegiate Computing Contest (C4), 2023."
+  - "Second Prize, in Provincial Division, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2023."
 ---
 ## Competitions
 
