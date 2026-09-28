@@ -10,7 +10,7 @@ redirect_from:
 
 ### Biography
 
-I am a M.S. student at the School of Remote Sensing and Information Engineering, Wuhan University, Wuhan, China, supervised by Professor [Zhenzhong Chen](https://zhenzhong-chen.github.io/).
+I am an M.S. student at the [Institute of Artificial Intelligence and Machine Perception](https://iip.whu.edu.cn/index.html), School of Remote Sensing and Information Engineering, Wuhan University, Wuhan, China, supervised by Professor [Zhenzhong Chen](https://zhenzhong-chen.github.io/).
 
 My research focuses on learned video compression, video frame interpolation and neural network-based video coding.
 
