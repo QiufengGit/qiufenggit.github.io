@@ -12,12 +12,12 @@ redirect_from:
 
 I am a M.S. student at the School of Remote Sensing and Information Engineering, Wuhan University, Wuhan, China, supervised by Professor [Zhenzhong Chen](https://zhenzhong-chen.github.io/).
 
-My research focuses on learned image compression, learned video compression, video frame interpolation and neural network-based video coding.
+My research focuses on learned video compression, video frame interpolation and neural network-based video coding.
 
 ### Education
 
 * M.S. student, School of Remote Sensing and Information Engineering, Wuhan University, Sep. 2025–present.
-* B.Eng., School of Computer Science, Wuhan University, Sep. 2021–Jun. 2025.
+* B.Eng., School of Remote Sensing and Information Engineering, Wuhan University, Sep. 2021–Jun. 2025.
 
 ## Publications
 
@@ -49,17 +49,20 @@ My research focuses on learned image compression, learned video compression, vid
 
 ## Competitions
 
-1. **1st Place**, CPU Track, 7th Challenge on Learned Image Compression (CLIC 2025), 2025.
-2. **1st Place**, "AI + Image Coding" Track, 5th National Artificial Intelligence Competition (NAIC 2025), 2025.
-3. **National Second Prize**, "Huawei Cup" China Postgraduate Mathematical Contest in Modeling, 2025.
-4. **3rd Place**, 6th Challenge on Learned Image Compression (CLIC 2024), 2024.
-5. **2nd Place**, 3rd Practical End-to-End Image Compression Challenge, 2024.
-6. **National Second Prize**, "Huawei Cup" China Postgraduate Mathematical Contest in Modeling, 2024.
-7. **National Second Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2022.
+{% assign competitions_page = site.pages | where: "competition_source", true | first %}
+
+<ul>
+{% for item in competitions_page.competitions %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
 
 ## Honors
 
-1. Outstanding Graduate Student Academic Scholarship (First Class), Wuhan University, 2024.
-2. Outstanding Graduate Student, Wuhan University, 2024.
-3. Outstanding Undergraduate Academic Scholarship (Third Class), Wuhan University, 2022.
-4. Outstanding Undergraduate Academic Scholarship (Third Class), Wuhan University, 2021.
+{% assign honors_page = site.pages | where: "honors_source", true | first %}
+
+<ul>
+{% for item in honors_page.honors %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
