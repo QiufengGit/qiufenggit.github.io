@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## About me
+## About me {#about}
 
 ### Biography
 
@@ -37,7 +37,7 @@ My research focuses on learned video compression, video frame interpolation and 
   {% include archive-single.html %}
 {% endfor %}
 
-## Standardization Proposals
+## Standardization Proposals {#standardization}
 
 {% assign standardization_page = site.pages | where: "proposal_source", true | first %}
 
