@@ -13,7 +13,6 @@
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
     "include/mixins",
     "vendor/susy/susy",
@@ -37,3 +36,120 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+.page__content {
+  line-height: 1.52;
+}
+
+body {
+  padding-bottom: 0;
+}
+
+:root {
+  --global-link-color: #1663E0;
+  --global-link-color-hover: #1663E0;
+  --global-link-color-visited: #1663E0;
+}
+
+/* Inline SVG icons avoid deployment-dependent icon-font loading. */
+.sidebar-icon {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.65em;
+  vertical-align: -0.15em;
+  color: var(--global-text-color);
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+html {
+  scroll-padding-top: 92px;
+}
+
+.page__content h2,
+.page__content h3 {
+  scroll-margin-top: 92px;
+}
+
+@media (min-width: 57.8125em) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: none;
+    width: calc(100% - 80px);
+  }
+
+  .page {
+    width: 82.5%;
+    padding-left: 4.2372881356%;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 80em) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: none;
+    width: calc(100% - 80px);
+  }
+
+  .page {
+    width: 84.5%;
+    padding-left: 3%;
+  }
+}
+
+/* Keep the collapsed author card visually connected to the navigation.
+   The base layout adds 2em above the main content, and portrait mode adds
+   another 1em to the sidebar, which creates excessive whitespace on narrow
+   screens. */
+@media screen and (max-width: 57.75em) {
+  #main {
+    /* Leave a small safety gap below the fixed masthead so mobile browser
+       text scaling cannot overlap the author portrait. */
+    margin-top: 1rem;
+  }
+
+  .sidebar {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+.page__footer {
+  display: none;
+}
+
+.page__content p,
+.page__content li {
+  margin-bottom: 0.45em;
+}
+
+.page__content h2 {
+  margin-top: 1.35em;
+  margin-bottom: 0.45em;
+}
+
+.page__content h3 {
+  margin-top: 0.9em;
+  margin-bottom: 0.35em;
+}
+
+.archive__item {
+  margin-bottom: 0.8em;
+}
+
+.archive__item-title {
+  margin-top: 0.35em;
+  margin-bottom: 0.2em;
+  font-size: 0.95em;
+  line-height: 1.25;
+}
+
+.archive__item p {
+  margin-top: 0.15em;
+  margin-bottom: 0.2em;
+}

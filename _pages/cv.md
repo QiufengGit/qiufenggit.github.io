@@ -9,56 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
+You can download my full CV here: [NianxiangFu_CV.pdf](/files/NianxiangFu_CV.pdf).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. student in Photogrammetry and Remote Sensing, Wuhan University, Wuhan, China, Sep. 2023 - Jun. 2029 (expected)
+* B.Eng. in Computer Science, Wuhan University, Wuhan, China, Sep. 2019 - Jun. 2023
 
-Work experience
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+End-to-end image compression, end-to-end video compression, video transcoding, and neural network-based video coding.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Selected publications
+======
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Honors and awards
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 1st Place, CPU Track, 7th Challenge on Learned Image Compression (CLIC 2025), 2025
+* 1st Place, "AI + Image Coding" Track, 5th National Artificial Intelligence Competition (NAIC 2025), 2025
+* 3rd Place, 6th Challenge on Learned Image Compression (CLIC 2024), 2024
+* 2nd Place, 3rd Practical End-to-End Image Compression Challenge, 2024
+* National Second Prize, "Huawei Cup" China Postgraduate Mathematical Contest in Modeling, 2024, 2025
+* Outstanding Graduate Student Academic Scholarship (First Class), Wuhan University, 2024
+* Outstanding Graduate Student, Wuhan University, 2024
+* National Second Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2022
+* Outstanding Undergraduate Academic Scholarship (Third Class), Wuhan University, 2021, 2022
 
-Publications
+Contact
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Email: nianxiangfu@whu.edu.cn

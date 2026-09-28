@@ -176,6 +176,7 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  overflow: visible;
 
   a {
     display: block;
@@ -199,6 +200,8 @@
     background-color: var(--global-bg-color);
     color: var(--global-text-color);
     cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
     z-index: 100;
   }
 
@@ -211,7 +214,7 @@
 
       &:first-child {
         font-weight: bold;
-        text-wrap: wrap;
+        white-space: nowrap;
 
         a {
           margin-left: 0;
@@ -222,15 +225,6 @@
         a {
           margin-right: 0;
         }
-      }
-    }
-
-    #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
       }
     }
 
@@ -252,10 +246,12 @@
                 transform: scaleX(0); /* hide*/
       }
 
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+      @media (hover: hover) and (pointer: fine) {
+        &:hover:before {
+          -webkit-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+                  transform: scaleX(1); /* reveal*/
+        }
       }
     }
   }
@@ -270,6 +266,7 @@
     border-radius: $border-radius;
     background: var(--global-bg-color);
     box-shadow: 0 0 10px rgba(#000, 0.25);
+    z-index: 99;
 
     a {
       margin: 0;

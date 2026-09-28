@@ -322,3 +322,64 @@
     }
   }
 }
+
+/* Keep the full author contact card usable when the sidebar collapses above
+   the page content. The former compact layout hid these links behind a Follow
+   button, which this site intentionally does not use. */
+@media screen and (max-width: 57.75em) {
+  .author-profile {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    column-gap: 16px;
+    align-items: center;
+  }
+
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    display: block;
+  }
+
+  .author__avatar,
+  .author__avatar img {
+    width: 72px;
+  }
+
+  .author__content {
+    padding: 0;
+  }
+
+  .author__urls-wrapper {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-top: 0.75rem;
+    cursor: default;
+  }
+
+  .author__urls {
+    display: flex;
+    position: static;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: auto;
+  }
+
+  .author__urls:before,
+  .author__urls:after {
+    display: none;
+  }
+
+  .author__urls li,
+  .sidebar .author__desktop {
+    display: block;
+  }
+
+  .author__urls a {
+    margin-bottom: 0;
+  }
+}
