@@ -14,8 +14,8 @@ honors:
 ---
 ## Honors
 
-<ul>
+<ol>
 {% for item in page.honors %}
 <li>{{ item }}</li>
 {% endfor %}
-</ul>
+</ol>

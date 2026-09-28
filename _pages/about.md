@@ -51,18 +51,18 @@ My research focuses on learned video compression, video frame interpolation and 
 
 {% assign competitions_page = site.pages | where: "competition_source", true | first %}
 
-<ul>
+<ol>
 {% for item in competitions_page.competitions %}
 <li>{{ item }}</li>
 {% endfor %}
-</ul>
+</ol>
 
 ## Honors
 
 {% assign honors_page = site.pages | where: "honors_source", true | first %}
 
-<ul>
+<ol>
 {% for item in honors_page.honors %}
 <li>{{ item }}</li>
 {% endfor %}
-</ul>
+</ol>
