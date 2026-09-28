@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "Nianxiang Fu (付年祥)"
+title: "Xinxin Chen (陈鑫鑫)"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-## About me {#about}
+## About me
 
 ### Biography
 
@@ -22,7 +21,7 @@ My research focuses on learned image compression, learned video compression, vid
 * M.Eng. student, Hubei Luojia Laboratory, Wuhan University, Sep. 2023–Sep. 2024.
 * B.Eng., School of Computer Science, Wuhan University, Sep. 2019–Jun. 2023.
 
-## Publications {#publications}
+## Publications
 
 {% include base_path %}
 
@@ -40,16 +39,17 @@ My research focuses on learned image compression, learned video compression, vid
   {% include archive-single.html %}
 {% endfor %}
 
-## Standardization Proposals {#standardization}
+## Standardization Proposals
 
 {% assign standardization_page = site.pages | where: "proposal_source", true | first %}
+
 <ol>
 {% for proposal in standardization_page.proposals %}
 <li>{{ proposal.citation | replace: "Xinxin Chen", "<strong>Xinxin Chen</strong>" }}{% if proposal.adopted %} <strong>[Adopted]</strong>{% endif %}</li>
 {% endfor %}
 </ol>
 
-## Competitions {#competitions}
+## Competitions
 
 1. **1st Place**, CPU Track, 7th Challenge on Learned Image Compression (CLIC 2025), 2025.
 2. **1st Place**, "AI + Image Coding" Track, 5th National Artificial Intelligence Competition (NAIC 2025), 2025.
@@ -59,7 +59,7 @@ My research focuses on learned image compression, learned video compression, vid
 6. **National Second Prize**, "Huawei Cup" China Postgraduate Mathematical Contest in Modeling, 2024.
 7. **National Second Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2022.
 
-## Honors {#honors}
+## Honors
 
 1. Outstanding Graduate Student Academic Scholarship (First Class), Wuhan University, 2024.
 2. Outstanding Graduate Student, Wuhan University, 2024.
