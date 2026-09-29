@@ -8,7 +8,7 @@ published: false
 ## Standardization Proposals
 
 1. Xinxin Chen and Zhenzhong Chen, “Crosscheck of JVET-AQ0049 (EE1-2.3: Deep reference frame generation for inter prediction enhancement with motion compensation),” JVET-AQ0134, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026.
-2. Philippe Bordes, Franck Galpin, Federico Lo Bianco, M. Paquiry, Xinxin Chen, Tian Shu, Junxi Zhang, and Zhenzhong Chen, “EE1-2.4: Combination of test 2.3 (deep reference frame generation with motion compensation) and tests 2.1 and 2.2,” JVET-AQ0050, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026. (Adopted)
+2. Philippe Bordes, Franck Galpin, Federico Lo-Bianco, Mattéo Paquiry, Xinxin Chen, Tian Shu, Junxi Zhang, and Zhenzhong Chen, “EE1-2.4: Combination of test 2.3 (deep reference frame generation with motion compensation) and tests 2.1 and 2.2,” JVET-AQ0050, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026. (Adopted)
 3. Xinxin Chen, Junxi Zhang, and Zhenzhong Chen, “EE1-2.2: Improved H-DRF with weighted fusion and optimized YUV processing,” JVET-AQ0048, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026. (Adopted)
 4. Tian Shu, Xinxin Chen, Wenzhuo Zhang, Nianxiang Fu, and Zhenzhong Chen, “EE1-2.1: Very small deep reference frame generation network for inter prediction enhancement,” JVET-AQ0047, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026. (Adopted)
 5. Xinxin Chen, Junxi Zhang, and Zhenzhong Chen, “AhG14: SIMD improvements of operators in SADL library,” JVET-AP0053, 42nd JVET Meeting in Santa Eulària, 24 Apr.–1 May 2026. (Adopted)

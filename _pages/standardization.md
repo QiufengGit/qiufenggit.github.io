@@ -6,7 +6,7 @@ author_profile: true
 proposal_source: true
 proposals:
   - citation: "Xinxin Chen and Zhenzhong Chen, “Crosscheck of JVET-AQ0049 (EE1-2.3: Deep reference frame generation for inter prediction enhancement with motion compensation),” JVET-AQ0134, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026."
-  - citation: "Philippe Bordes, Franck Galpin, Federico Lo Bianco, M. Paquiry, Xinxin Chen, Tian Shu, Junxi Zhang, and Zhenzhong Chen, “EE1-2.4: Combination of test 2.3 (deep reference frame generation with motion compensation) and tests 2.1 and 2.2,” JVET-AQ0050, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026."
+  - citation: "Philippe Bordes, Franck Galpin, Federico Lo-Bianco, Mattéo Paquiry, Xinxin Chen, Tian Shu, Junxi Zhang, and Zhenzhong Chen, “EE1-2.4: Combination of test 2.3 (deep reference frame generation with motion compensation) and tests 2.1 and 2.2,” JVET-AQ0050, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026."
     adopted: true
   - citation: "Xinxin Chen, Junxi Zhang, and Zhenzhong Chen, “EE1-2.2: Improved H-DRF with weighted fusion and optimized YUV processing,” JVET-AQ0048, 43rd JVET Meeting in Geneva, 7–15 Jul. 2026."
     adopted: true
